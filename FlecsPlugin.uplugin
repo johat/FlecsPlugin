@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Flecs Unreal Plugin",
+	"Description": "An Unreal Engine wrapper plugin for the flecs library",
+	"Category": "Programming",
+	"CreatedBy": "Sander Mertens (plugin by Jon Hatton)",
+	"CreatedByURL": "https://flecs.dev",
+	"DocsURL": "https://flecs.dev/flecs/md_docs_Docs.html",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/BEzP5Rgrrp",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FlecsLibrary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
