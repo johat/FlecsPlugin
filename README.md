@@ -16,35 +16,35 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
 
 1. Add the plugin as a dependency to the uproject / any uplugins that will be using flecs.
 
-i.e. in the `Plugins` section of your `.uproject` or `.uplugin file:`
-```ini
-...
-"Plugins": [
-    {
-        "Name": "FlecsPlugin",
-        "Enabled": true
-    }
-]
-...
-```
+    i.e. in the `Plugins` section of your `.uproject` or `.uplugin file:`
+    ```ini
+    ...
+    "Plugins": [
+        {
+            "Name": "FlecsPlugin",
+            "Enabled": true
+        }
+    ]
+    ...
+    ```
 
 1. Add the `FlecsLibrary` module as either a public or private dependency to any modules that will be using flecs.
 
-e.g. in the module's `.Build.cs` file:
-```csharp
-PublicDependencyModuleNames.Add("FlecsLibrary");
+    e.g. in the module's `.Build.cs` file:
+    ```csharp
+    PublicDependencyModuleNames.Add("FlecsLibrary");
 
-// or
-PublicDependencyModuleNames.AddRange
-(
-    new string[]
-    {
-        "Core",
-        "CoreUObject",
-        "FlecsLibrary",
-        // etc.
-    }
-);
-```
+    // or
+    PublicDependencyModuleNames.AddRange
+    (
+        new string[]
+        {
+            "Core",
+            "CoreUObject",
+            "FlecsLibrary",
+            // etc.
+        }
+    );
+    ```
 
 1. Then simply `#include "flecs.h"` wherever you wish to use flecs. From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
