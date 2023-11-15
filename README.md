@@ -12,12 +12,12 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
 
 ## How to use
 
-1. Add the plugin to your `Plugins` folder, as with any other Unreal plugin (typically, in your project folder, but you could also add to the engine itself).
+1. **Add the plugin to your `Plugins` folder**, as with any other Unreal plugin (typically, in your project folder, but you could also add to the engine itself).
 
-1. Add the plugin as a dependency to the uproject / any uplugins that will be using flecs.
+1. **Add the plugin as a dependency** to the uproject / any uplugins that will be using flecs.
 
     i.e. in the `Plugins` section of your `.uproject` or `.uplugin` file:
-    ```ini
+    ```json
     ...
     "Plugins": [
         {
@@ -28,7 +28,7 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
     ...
     ```
 
-1. Add the `FlecsLibrary` module as either a public or private dependency to any modules that will be using flecs.
+1. **Add the `FlecsLibrary` module as dependency** to any modules that will be using flecs (either public or private, as needed).
 
     e.g. in the module's `.Build.cs` file:
     ```csharp
@@ -47,7 +47,7 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
     );
     ```
 
-1. Then simply `#include "flecs.h"` wherever you wish to use flecs. From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
+1. **Then simply `#include "flecs.h"`** wherever you wish to use flecs. From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
 
 ## Using a different flecs version
 
