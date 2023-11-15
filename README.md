@@ -46,7 +46,9 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
     );
     ```
 
-1. **Then simply `#include "flecs.h"`** wherever you wish to use flecs. From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
+1. **Then simply `#include "flecs.h"`** wherever you wish to use flecs.
+
+    From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
 
 ## Using a different flecs version
 
