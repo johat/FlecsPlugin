@@ -4,7 +4,7 @@ This is a simple wrapper plugin for the [flecs entity component system](https://
 
 Currently only tested in editor with Unreal Engine 5.3 on Windows 11, but it should work with other versions and in builds.
 
-Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs/releases/tag/v3.29) (commit id [ff72706](https://github.com/SanderMertens/flecs/commit/ff72706446d9865e6563a1dc505f4f352f72be4a)).
+Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs/releases/tag/v3.2.9) (commit id [ff72706](https://github.com/SanderMertens/flecs/commit/ff72706446d9865e6563a1dc505f4f352f72be4a)).
 
 Flecs (located in `Source/FlecsLibrary/ThirdParty/flecs`) and its logo (used in `Resources/Icon128.png`) are copyright (c) 2019 by Sander Mertens under MIT License (located at `Source/FlecsLibrary/ThirdParty/flecs/LICENSE`).
 
