@@ -16,7 +16,7 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
 
 1. Add the plugin as a dependency to the uproject / any uplugins that will be using flecs.
 
-    i.e. in the `Plugins` section of your `.uproject` or `.uplugin file:`
+    i.e. in the `Plugins` section of your `.uproject` or `.uplugin` file:
     ```ini
     ...
     "Plugins": [
