@@ -12,7 +12,9 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
 
 ## How to use
 
-1. **Add the plugin to your `Plugins` folder**, as with any other Unreal plugin (typically, in your project folder, but you could also add to the engine itself).
+1. **Clone or download this repository to your `Plugins` folder**.
+
+    e.g. `YourProject/Plugins/FlecsPlugin`, though you could also add it to the engine itself
 
 1. **Add the plugin as a dependency** to the uproject / any uplugins that will be using flecs.
 
