@@ -18,20 +18,19 @@ Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unre
 
     i.e. in the `Plugins` section of your `.uproject` or `.uplugin` file:
     ```json
-    ...
     "Plugins": [
         {
             "Name": "FlecsPlugin",
             "Enabled": true
         }
     ]
-    ...
     ```
 
 1. **Add the `FlecsLibrary` module as dependency** to any modules that will be using flecs (either public or private, as needed).
 
     e.g. in the module's `.Build.cs` file:
     ```csharp
+    // for example
     PublicDependencyModuleNames.Add("FlecsLibrary");
 
     // or
