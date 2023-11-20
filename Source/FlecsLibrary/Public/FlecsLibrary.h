@@ -1,5 +1,5 @@
-// Flecs is copyright (c) 2019 Sander Mertens, under MIT license
-// Unreal wrapper plugin by Jon Hatton
+// Flecs is copyright (c) 2019 Sander Mertens.
+// Unreal wrapper plugin copyright (c) 2023 Jon Hatton. All Rights Reserved.
 
 #pragma once
 
@@ -19,7 +19,6 @@ FLECSLIBRARY_API DECLARE_LOG_CATEGORY_EXTERN(LogFlecsLibrary, Log, All);
 class FLECSLIBRARY_API FFlecsLibraryModule : public IModuleInterface
 {
 public:
-	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 };
