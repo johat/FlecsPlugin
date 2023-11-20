@@ -4,13 +4,13 @@ This is a simple wrapper plugin for the [flecs entity component system](https://
 
 Currently only tested in editor with Unreal Engine 5.3 on Windows 11, but it should work with other versions and in builds.
 
-Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs/releases/tag/v3.2.9) (commit id [ff72706](https://github.com/SanderMertens/flecs/commit/ff72706446d9865e6563a1dc505f4f352f72be4a)).
+Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs/releases/tag/v3.2.9).
 
 ## How to use
 
 1. **Clone or download this repository to your `Plugins` folder**.
 
-    e.g. `YourProject/Plugins/FlecsPlugin`, though you could also add it to the engine itself
+    e.g. `YourProject/Plugins/FlecsPlugin`, though you could also add it to the engine itself.
 
 1. **Add the plugin as a dependency** to the uproject / any uplugins that will be using flecs.
 
@@ -44,13 +44,13 @@ Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs
     );
     ```
 
-1. **Then simply `#include "flecs.h"`** wherever you wish to use flecs.
+1. **Just `#include "flecs.h"`** wherever you wish to use flecs.
 
-    From there, simply use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
+    From there, use flecs as [normal](https://www.flecs.dev/flecs/md_docs_Docs.html).
 
 ## Using a different flecs version
 
-If you wish to use a different version of flecs, simply:
+If you wish to use a different version of flecs:
 
 1. Download the desired version of `flecs.h` and `flecs.c` from the [flecs repository](https://github.com/SanderMertens/flecs).
 
