@@ -60,8 +60,8 @@ If you wish to use a different version of flecs:
 
 ## License
 
-Flecs (located in `Source/FlecsLibrary/ThirdParty/flecs`) and its logo (used in `Resources/Icon128.png`) are copyright (c) 2019 Sander Mertens under MIT License (located at `Source/FlecsLibrary/ThirdParty/flecs/LICENSE`).
+Flecs (located in [`Source/FlecsLibrary/ThirdParty/flecs`](https://www.github.com/johat/FlecsPlugin/blob/main/Source/FlecsLibrary/ThirdParty/flecs)) and its logo (used in [`Resources/Icon128.png`](https://www.github.com/johat/FlecsPlugin/blob/main/Resources/Icon128.png)) are copyright (c) 2019 Sander Mertens under MIT License (located at [`Source/FlecsLibrary/ThirdParty/flecs/LICENSE`](https://www.github.com/johat/FlecsPlugin/blob/main/Source/FlecsLibrary/ThirdParty/flecs/LICENSE)).
 
-This plugin is copyright (c) 2023 Jon Hatton under MIT License (see `LICENSE`, located in the root of this repository). All Rights Reserved.
+This plugin is copyright (c) 2023 Jon Hatton under MIT License (see [`LICENSE`](https://www.github.com/johat/FlecsPlugin/blob/main/LICENSE), located in the root of this repository). All Rights Reserved.
 
 Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unreal Engine is subject to the [End User License Agreement](https://www.unrealengine.com/eula).
