@@ -1,5 +1,5 @@
 // Flecs is copyright (c) 2019 Sander Mertens.
-// Unreal wrapper plugin copyright (c) 2023 Jon Hatton. All Rights Reserved.
+// Unreal wrapper plugin is copyright (c) 2023 Jon Hatton. All Rights Reserved.
 
 #pragma once
 
