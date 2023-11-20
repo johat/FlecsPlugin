@@ -6,10 +6,6 @@ Currently only tested in editor with Unreal Engine 5.3 on Windows 11, but it sho
 
 Current version of flecs used is [v3.2.9](https://github.com/SanderMertens/flecs/releases/tag/v3.2.9) (commit id [ff72706](https://github.com/SanderMertens/flecs/commit/ff72706446d9865e6563a1dc505f4f352f72be4a)).
 
-Flecs (located in `Source/FlecsLibrary/ThirdParty/flecs`) and its logo (used in `Resources/Icon128.png`) are copyright (c) 2019 by Sander Mertens under MIT License (located at `Source/FlecsLibrary/ThirdParty/flecs/LICENSE`).
-
-Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unreal Engine is subject to the [End User License Agreement](https://www.unrealengine.com/eula).
-
 ## How to use
 
 1. **Clone or download this repository to your `Plugins` folder**.
@@ -61,3 +57,11 @@ If you wish to use a different version of flecs, simply:
 1. At the top of `flecs.h`, either remove or comment out the line `#define flecs_STATIC` (line 2).
 
 1. In `Source/FlecsLibrary/ThirdParty`, replace `Public/flecs.h` and `Private/flecs.c` with the versions you downloaded.
+
+## License
+
+Flecs (located in `Source/FlecsLibrary/ThirdParty/flecs`) and its logo (used in `Resources/Icon128.png`) are copyright (c) 2019 Sander Mertens under MIT License (located at `Source/FlecsLibrary/ThirdParty/flecs/LICENSE`).
+
+This plugin is copyright (c) 2023 Jon Hatton under MIT License (see `LICENSE`, located in the root of this repository). All Rights Reserved.
+
+Unreal Engine is copyright (c) Epic Games, Inc. All Rights Reserved. Use of Unreal Engine is subject to the [End User License Agreement](https://www.unrealengine.com/eula).
